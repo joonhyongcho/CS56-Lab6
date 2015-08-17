@@ -1,0 +1,6 @@
+vhdl work "SerialTx.vhd"
+vhdl work "SerialRX.vhd"
+vhdl work "mux7seg.vhd"
+vhdl work "MemoryReceiver.vhd"
+vhdl work "lab5top.vhd"
+vhdl work "lab6tb.vhd"

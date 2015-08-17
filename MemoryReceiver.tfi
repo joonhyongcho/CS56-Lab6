@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+MemoryReceiver instance_name (
+    .rx_done_tick(rx_done_tick), 
+    .clk(clk), 
+    .data_in(data_in), 
+    .data_out(data_out), 
+    .EmptyLED(EmptyLED), 
+    .FullLED(FullLED), 
+    .PlaybackSwitch(PlaybackSwitch), 
+    .tx_done_tick(tx_done_tick), 
+    .tx_start_tick(tx_start_tick)
+    );
+
+

@@ -1,0 +1,24 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Aug 12 23:28:45 2015
+
+drc -z lab5top.ncd lab5top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Receiver/currents[1]_GND_7_o_Mux_34_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Receiver/clkcnt[7]_GND_6_o_equal_10_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Receiver/clkcnth[7]_GND_6_o_AND_7_o is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <Inst_MemoryReceiver/Mram_RAM1_RAMD_D1_O> is incomplete. The signal does not
+   drive any load pins in the design.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

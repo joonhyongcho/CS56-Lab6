@@ -1,0 +1,6 @@
+vhdl isim_temp "SerialTx.vhd"
+vhdl isim_temp "SerialRX.vhd"
+vhdl isim_temp "mux7seg.vhd"
+vhdl isim_temp "MemoryReceiver.vhd"
+vhdl isim_temp "lab5top.vhd"
+vhdl isim_temp "lab6tb.vhd"

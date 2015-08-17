@@ -1,0 +1,5 @@
+work	"MemoryReceiver.vhd"
+work	"SerialRX.vhd"
+work	"SerialTx.vhd"
+work	"lab5top.vhd"
+work	"mux7seg.vhd"

@@ -1,0 +1,4 @@
+vhdtdtfi -prj lab6 -o O:/engs31/lab6/MemoryReceiver.tfi -module MemoryReceiver -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MemoryReceiver.vhd 
+vhdtdtfi -prj lab6 -o O:/engs31/lab6/MemoryReceiver.tfi -module MemoryReceiver -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MemoryReceiver.vhd 
+vhdtdtfi -prj lab6 -o O:/engs31/lab6/MemoryReceiver.tfi -module MemoryReceiver -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MemoryReceiver.vhd 
+vhdtdtfi -prj lab6 -o O:/engs31/lab6/MemoryReceiver.vhi -module MemoryReceiver -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MemoryReceiver.vhd 

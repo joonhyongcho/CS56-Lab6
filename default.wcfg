@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="O:/ENGS31/lab6final/lab6tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="lab6tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/lab6tb/mclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mclk</obj_property>
+      <obj_property name="ObjectShortName">mclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/rsrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsrx</obj_property>
+      <obj_property name="ObjectShortName">rsrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/playbackswitch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">playbackswitch</obj_property>
+      <obj_property name="ObjectShortName">playbackswitch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/rstx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstx</obj_property>
+      <obj_property name="ObjectShortName">rstx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/clk10_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk10_p</obj_property>
+      <obj_property name="ObjectShortName">clk10_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/rsrx_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsrx_p</obj_property>
+      <obj_property name="ObjectShortName">rsrx_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/rx_shift_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_shift_p</obj_property>
+      <obj_property name="ObjectShortName">rx_shift_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/rx_done_tick_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_done_tick_p</obj_property>
+      <obj_property name="ObjectShortName">rx_done_tick_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/emptyled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">emptyled</obj_property>
+      <obj_property name="ObjectShortName">emptyled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/fullled" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fullled</obj_property>
+      <obj_property name="ObjectShortName">fullled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/uut/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/uut/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/uut/Inst_MemoryReceiver/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[30:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6tb/uut/Inst_MemoryReceiver/write_address" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">write_address</obj_property>
+      <obj_property name="ObjectShortName">write_address</obj_property>
+   </wvobject>
+</wave_config>
